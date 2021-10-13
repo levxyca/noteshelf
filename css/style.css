@@ -12,6 +12,10 @@ body {
   margin: 0 auto;
 }
 
+.none {
+  display: none;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -35,6 +39,10 @@ body {
   color: #353535;
   font-weight: 400;
   padding: 10px 15px;
+}
+
+.header__menu-mobile-img {
+  display: none;
 }
 
 .header__btn {
@@ -89,6 +97,16 @@ body {
 
   .header__menu {
     display: none;
+  }
+
+  .header__menu-mobile {
+    padding: 5px;
+    margin-left: 10px;
+  }
+
+  .header__menu-mobile-img {
+    display: block;
+    width: 25px;
   }
 
   .content__title {
