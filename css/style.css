@@ -172,7 +172,7 @@ body {
   }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .header {
     margin-top: 50px;
     padding-top: 0;
