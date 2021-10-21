@@ -171,3 +171,42 @@ body {
     margin-top: 70px;
   }
 }
+
+@media (max-width: 991px) {
+  .header {
+    margin-top: 50px;
+    padding-top: 0;
+  }
+
+  .header__general {
+    justify-content: center;
+  }
+
+  .header__logo {
+    width: 30%;
+  }
+
+  .header__logo-img {
+    max-width: 70%;
+  }
+
+  .content__title {
+    font-size: 54px;
+    line-height: 64px;
+  }
+
+  .content__subtitle {
+    font-size: 35px;
+  }
+
+  .devices {
+    max-width: 100%;
+    margin-top: 88px;
+    width: 50%;
+  }
+
+  .container__mobile {
+    display: flex;
+    justify-content: center;
+  }
+}
